@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Payment - TechShop</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" class="logo-link">
+                    <h1><i class="fas fa-laptop"></i>TechShop</h1>
+                </a>
+            </div>
+        <nav class="navbar">
+            <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                </ul>
+        <div class="cart-icon">
+            <a href="cart-button.html"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+        </div>
+        </nav>              
+        </div>
+    </header>
+    <!-- Main content-->
+    <main class="main-content">
+    <div class="checkout-content">
+            <div class="checkout-form">
+                <h3>Payment Method</h3>
+                <form id="payment-form">
+                <div class="payment-methods">
+                    <div class="payment-method">
+                       <input type="radio" id="credit-card" name="payment-method" value="credit-card" checked>
+                        <label for="credit-card">
+                        <i class="fas fa-credit-card"></i>
+                        Credit/Debit Card
+                        </label> 
+                </div>  
+            <!-- Credit Card Form -->
+                            <div id="credit-card-form" class="payment-form-section">
+                                <div class="form-group">
+                                    <label for="card-number">*Card Number:</label>
+                                    <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="expiry-date">*Expiry Date:</label>
+                                        <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="cvv">*CVV</label>
+                                        <input type="text" id="cvv" name="cvv" placeholder="123" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="card-name">*Name on Card</label>
+                                    <input type="text" id="card-name" name="card-name" required>
+                                </div>
+                            </div>
+
+                            <div class="form-actions">
+                                <a href="shipping.html" class="btn-secondary" id="back-to-shipping">Back to Shipping</a>
+                                <a href="shipping.html"></a>
+                                <a href="#" class="btn-primary" id="place-order-btn" onclick="proceedToCheckout()">Place Order</a>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="order-summary">
+                        <h3>Order Summary</h3>
+                        <div class="summary-items">
+                            <!-- Cart items will be loaded from JSON -->
+                        </div>
+                        <div class="summary-totals">
+                            <div class="total-row">
+                                <span>Subtotal:</span>
+                                <span class="subtotal">$0.00</span>
+                            </div>
+                            <div class="total-row">
+                                <span>Shipping:</span>
+                                <span class="shipping">$0.00</span>
+                            </div>
+                            <div class="total-row">
+                                <span>Tax:</span>
+                                <span class="tax">$0.00</span>
+                            </div>
+                            <div class="total-row grand-total">
+                                <span>Total:</span>
+                                <span class="total-price">$0.00</span>
+                            </div>
+                        </div>
+                    </div>  
+            </div>
+        </div>
+    </section>
+</main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechShop</h3>
+                    <p>Your one-stop shop for all electronics and gadgets. We offer the best products at competitive prices.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.tiktok.com/en/"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Digital City</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@techshop.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechShop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="payment.js"></script>
+</body>
+</html>

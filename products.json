@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Dell XPS 15",
+    "price": 1499,
+    "category": "laptops",
+    "image": "images/products/laptop-1.jpg",
+    "description": "Intel Core i7 16GB RAM 1TB SSD 15''"
+  },
+  {
+    "id": 2,
+    "name": "Apple iPhone 14",
+    "price": 1299,
+    "category": "smartphones",
+    "image": "images/products/iphone-14-pro.jpg",
+    "description": "Latest iPhone with A15 chip and dual camera."
+  },
+  {
+    "id": 3,
+    "name": "Samsung Galaxy Tab S8",
+    "price": 699,
+    "category": "tablets",
+    "image": "images/products/galaxy-tab-s8.jpg",
+    "description": "Snap dragon 8 Gen 1, 8GB RAM, 128GB Storage."
+  },
+  {
+    "id": 4,
+    "name": "Apple Macbook Air 15",
+    "price": 1699,
+    "category": "laptops",
+    "image": "images/products/laptop-2.jpg",
+    "description": "M5 Chip 16GB RAM 256GB SSD 15''"
+  },
+  {
+    "id": 5,
+    "name": "Lenovo Tab M8 Gen4",
+    "price": 269,
+    "category": "tablets",
+    "image": "images/products/lenovo-tab-m8.jpg",
+    "description": "Snap dragon 5 Gen 1, 4GB RAM, 64GB Storage."
+  },
+  {
+    "id": 6,
+    "name": "Apple iPad Pro 11 2024",
+    "price": 898,
+    "category": "tablets",
+    "image": "images/products/ipad-pro-11.jpg",
+    "description": "M2 Chip 8GB RAM 256GB Storage."
+  },
+  {
+    "id": 7,
+    "name": "Xiaomi Mi 11",
+    "price": 198,
+    "category": "smartphones",
+    "image": "images/products/xiaomi-mi-11.jpg",
+    "description": "Qualcomm Snapdragon 888 SoC, 8GB RAM, 128GB Storage."
+  },
+  {
+    "id": 8,
+    "name": "Samsung Galaxy S25 Ultra",
+    "price": 1390,
+    "category": "smartphones",
+    "image": "images/products/samsung-galaxy-s25-ultra.png",
+    "description": "Qualcomm Snapdragon 8 Elite Gen 1, 12GB RAM, 256GB Storage."
+  },
+  {
+    "id": 9,
+    "name": "MSI Thin 15",
+    "price": 1299,
+    "category": "laptops",
+    "image": "images/products/laptop-3.jpg",
+    "description": "Intel Core i7 16GB RAM, Nvidia 1660 RTX, 1TB SSD 15''"
+  },
+  {
+    "id": 10,
+    "name": "Apple AirPods Pro",
+    "price": 179,
+    "category": "accessories",
+    "image": "images/products/airpods-pro.jpg",
+    "description": "Wireless Air Pods with Noise Cancellation."
+  },
+  {
+    "id": 11,
+    "name": "Θήκη Apple iPhone 14",
+    "price": 40,
+    "category": "accessories",
+    "image": "images/products/iphone-case.jpg",
+    "description": "Apple iPhone 14 Pro Silicone Case - Midnight"
+  }
+]
