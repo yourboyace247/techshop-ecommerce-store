@@ -7,4 +7,4 @@ TechShop e-commerce Store:
 5.Payment page: You can proceed to this page only if you add your shipping details. In this page you add your credit cart details (Number, CVV, Expiry date, & Name on the card), & the order summary details from the cart page.
 6.Thank you page: You can proceed to this page only if you add your card details info. Page display a message thanking you for your order, and has some contact info of the store in case you want to reach out.
 
-Video presentation: (soon)...
+Video presentation: (https://drive.google.com/file/d/1vTBn5vjlWySnH1hY3BIhht3ybttNwbbG/view?usp=sharing)
