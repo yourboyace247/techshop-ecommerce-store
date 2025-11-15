@@ -1,4 +1,4 @@
-# TechShop E-commerce website.
+# :computer: TechShop E-commerce website.
 
 ### Building an online e-shop using HTML, CSS & JavaScript.
 
